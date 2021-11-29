@@ -1,16 +1,16 @@
 #About{
-    display: flex;
     background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.7)),url('../img/estadios-cesped-europa-arpasa-2.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
 .about-title{
     font-size: 2Rem;
+    text-align: center;
     text-decoration:underline;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 .p-about{
-    margin-top: 6%;
+    margin-left: 10%;
     width:80%;
     text-align: center;
 }

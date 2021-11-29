@@ -111,6 +111,9 @@ nav li a:hover{
     background-color: darkorange;
     color: #000;
 }
+.club-name{
+    position: absolute;
+}
 .players-title{
     font-size: 2Rem;
     text-align: center;
