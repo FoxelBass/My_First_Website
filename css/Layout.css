@@ -1,0 +1,158 @@
+@import url(About.css);
+@import url(Media.css);
+@import url(Shop.css);
+@import url(Contact.css);
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+:root{
+    --first_color: #fffff0;
+    --second_color: #fff79c;
+    --third_color: #d6dc40;
+    --fourth_color: #3fc400;
+    --fifth_color: #00ac33;
+}
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body{
+    font-family: inherit;
+    color: #777;
+    letter-spacing: 0.025em;
+    line-height: 28px;
+    margin: 0;
+    font-size: 15px;
+    background-color: var(--first_color);
+    display:flex;
+    flex-wrap: wrap;
+}
+body>*{
+    width: 100vw;
+    background-color: beige;
+}
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+	margin-left: 1.5em;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+.social-icons li,
+.social-icons li a {
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    font-size: 2.2vw;
+}
+.contact-icons li,
+.contact-icons li a {
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    font-size: 1.6vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.social-icons li a:hover{
+    color: black;
+}
+.top-head{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    background-color: darkorange;
+}
+.head-left{
+    width: 40%;
+    float: left;
+    margin-left: 130px;
+}
+.head-right{
+    width: 40%;
+    float: right;
+}
+.site-header{
+    background: #000;
+}
+.site-header-main {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.site-header-menu{
+    margin-left: 30%;
+}
+#logo{
+    position: absolute;
+}
+nav li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2Rem;
+    display: inline;
+}
+nav li a{
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: darkorange;
+    color: #000;
+}
+.players-title{
+    font-size: 2Rem;
+    text-align: center;
+    text-decoration:underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Team{
+    display:flex;
+    flex-direction: column;
+    background-color: ;
+}
+.Team>div{
+    width: 100vw;
+    height: 40vh;
+}
+.Team>div>div{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+.fila1{
+    display:flex;
+    justify-content: space-evenly;
+}    
+.fila2{
+    display:flex;
+    justify-content: space-evenly;
+}
+.fila3{
+    display:flex;
+    justify-content: space-evenly;
+}
+.fila4{
+    display:flex;
+   justify-content: space-evenly;
+}
+.pic{
+    border-radius: 200px;
+    border: 10px solid darkorange;
+}
+.pic:hover{
+    transform:scale(1.2);
+    transition: all 0.5s linear;
+  }

@@ -1,0 +1,45 @@
+#Media{
+  background-color: beige;
+}
+.media-title{
+  font-size: 2Rem;
+  text-align: center;
+  text-decoration:underline;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Mpic{
+  display:flex;
+  flex-direction: column;
+  background-color: ;
+}
+.Mpic>div{
+  width: 100vw;
+  height: 40vh;
+}
+.Mpic>div>div{
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+}
+.mfila1{
+  display:flex;
+  justify-content: space-evenly;
+}    
+.mfila2{
+  display:flex;
+  justify-content: space-evenly;
+}
+.mfila3{
+  display:flex;
+  justify-content: space-evenly;
+}
+.pic-media{
+  border-radius: 200px;
+  border: 10px solid darkorange;
+}
+.pic-media:hover{
+  opacity: 0.9;
+  transform:scale(1.2);
+  transition: all 0.5s linear;
+}

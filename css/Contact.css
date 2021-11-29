@@ -1,0 +1,22 @@
+.contact-title{
+    font-size: 2Rem;
+    text-align: center;
+    text-decoration:underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+form{
+    margin-left: 40%;
+    float: left;
+}
+footer{
+    width: 100vw;
+    height: 4vh;
+    background-color: rgb(169, 175, 155);
+    display: block; 
+    clear: both;
+    text-align: center;
+}
+footer>ul{
+    position: absolute;
+    left: 25vw;
+}
