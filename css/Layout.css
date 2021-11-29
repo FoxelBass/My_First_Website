@@ -129,6 +129,7 @@ nav li a:hover{
 .Team>div>div{
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
     width: 200px;
     height: 200px;
 }

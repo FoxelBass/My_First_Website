@@ -10,6 +10,7 @@
 .Mpic{
   display:flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   background-color: ;
 }
 .Mpic>div{
@@ -19,20 +20,24 @@
 .Mpic>div>div{
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
   width: 250px;
   height: 250px;
 }
 .mfila1{
   display:flex;
   justify-content: space-evenly;
+  flex-wrap: nowrap;
 }    
 .mfila2{
   display:flex;
   justify-content: space-evenly;
+  flex-wrap: nowrap;
 }
 .mfila3{
   display:flex;
   justify-content: space-evenly;
+  flex-wrap: nowrap;
 }
 .pic-media{
   border-radius: 200px;
